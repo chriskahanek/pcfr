@@ -1,3 +1,7 @@
+div.w640 {
+  max-width: 640px;
+}
+
 h1 {
     color: #cc9;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
