@@ -1,6 +1,7 @@
-div.w640 {
-  max-width: 640px;
-  margin:auto;
+div.w960 {
+  max-width: 960px;
+  margin-left:auto
+  margin-right:auto
 }
 
 h1 {
