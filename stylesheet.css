@@ -23,13 +23,13 @@ h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: underline;
     font-weight: normal;
-    font-size: medium;
+    font-size: small;
   }
   
   p {
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: medium;
+    font-size: small;
   }
   
   hr{
