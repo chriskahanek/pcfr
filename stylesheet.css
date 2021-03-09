@@ -25,7 +25,7 @@ h1 {
     font-weight: bolder;
     font-size:xx-large;
   }
-  p.header {
+  p.topbar {
     color: white;
     font-family:'Times New Roman', Times, serif;
     font-weight: normal;
@@ -67,3 +67,27 @@ h1 {
     margin-left: 10px;
     margin-right: 10px;
   }
+
+  /* unvisited link */
+a.topbar:link {
+  color: #cc9;
+  text-decoration: none;
+}
+
+/* visited link */
+a.topbar:visited {
+  color: #cc9;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a.topbar:hover {
+  color: white;
+  text-decoration: none;
+}
+
+/* selected link */
+a.topbar:active {
+  color: white;
+  text-decoration: none;
+}
