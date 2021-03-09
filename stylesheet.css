@@ -5,13 +5,20 @@ div.mainbody {
 }
 div.headbody {
   width:100%;
-  color: #903;
+  background-color: #903;
 }
 h1 {
     color: #cc9;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
     font-size:xx-large;
+  }
+  h1.head {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size:xx-large;
+    text-align: center;
   }
   
   h2 {
