@@ -60,4 +60,6 @@ h1 {
     height: 2px;
     background-color: #903;
     border: none;
+    margin-left: 10px;
+    margin-right: 10px;
   }
