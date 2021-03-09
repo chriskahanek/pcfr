@@ -12,7 +12,6 @@ header {
   background-color: #663;
   margin-top: 0px;
   margin-bottom:0px;
-  margin-left: 5px;
   position:absolute;
   top:0px;
 }
@@ -28,6 +27,9 @@ h1 {
     font-weight: normal;
     font-variant: small-caps;
     font-size: medium;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
   }
   
   h2 {
