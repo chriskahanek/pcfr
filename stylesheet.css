@@ -7,11 +7,13 @@ div.mainbody {
   margin-left:auto;
   margin-right:auto;
 }
-div.headbody {
+header {
   width:100%;
-  background-color: #903;
-  padding-top: 10px;
-  padding-bottom:10px;
+  background-color: #663;
+  padding-top: 1px;
+  padding-bottom:1px;
+  position:absolute;
+  top:0px;
 }
 h1 {
     color: #cc9;
@@ -19,12 +21,12 @@ h1 {
     font-weight: bolder;
     font-size:xx-large;
   }
-  h1.head {
+  p.header {
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bolder;
-    font-size:xx-large;
-    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-variant: small-caps;
+    font-size: medium;
   }
   
   h2 {
