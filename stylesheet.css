@@ -50,8 +50,8 @@ h1 {
     font-size: medium;
     padding-left: 10px;
     padding-right: 30px;
-    padding-top: 4px;
-    padding-bottom: 4px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     margin-top: 0px;
     margin-bottom: 0px;
   }
@@ -85,27 +85,57 @@ h1 {
     margin-left: 10px;
     margin-right: 10px;
   }
-
   /* unvisited link */
 a.topbar:link {
+  font-weight: normal;
   color: #cc9;
   text-decoration: none;
 }
 
 /* visited link */
 a.topbar:visited {
+  font-weight: normal;
   color: #cc9;
   text-decoration: none;
 }
 
 /* mouse over link */
 a.topbar:hover {
+  font-weight: normal;
   color: white;
   text-decoration: none;
 }
 
 /* selected link */
 a.topbar:active {
+  font-weight: normal;
   color: white;
   text-decoration: none;
 }
+  /* unvisited link */
+a:link {
+  font-weight: bold;
+  color: #903;
+  text-decoration: none;
+}
+  
+/* visited link */
+a:visited {
+  font-weight: bold;
+  color: #903;
+  text-decoration: none;
+}
+  
+  /* mouse over link */
+a:hover {
+  font-weight: bold;
+  color: #903;
+  text-decoration: underline;
+}
+  
+  /* selected link */
+  a:active {
+    font-weight: bold;
+    color: #903;
+    text-decoration: underline;
+  }
