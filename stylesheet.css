@@ -34,24 +34,24 @@ h1 {
     font-size:xx-large;
   }
   p.topgear {
-    font-family:'Times New Roman', Times, serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
     font-size: medium;
-    padding-right: 8px;
-    padding-top: 2px;
+    padding-right: 10px;
+    padding-top: 4px;
     margin-top: 0px;
     margin-bottom: 0px;
   }
   p.topbar {
     color: #cc9;
-    font-family:'Times New Roman', Times, serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
     font-variant: small-caps;
-    font-size: large;
+    font-size: medium;
     padding-left: 10px;
     padding-right: 30px;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    padding-top: 4px;
+    padding-bottom: 4px;
     margin-top: 0px;
     margin-bottom: 0px;
   }
