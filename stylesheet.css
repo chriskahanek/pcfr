@@ -19,7 +19,7 @@ nav.topbar {
   top:0px;
 }
 nav.topgear {
-  width:20px;
+  width:25px;
   text-align: right;
   margin-top: 0px;
   margin-bottom:0px;
@@ -37,8 +37,8 @@ h1 {
     font-family:'Times New Roman', Times, serif;
     font-weight: normal;
     font-size: medium;
-    padding-right: 5px;
-    padding-top: 1px;
+    padding-right: 8px;
+    padding-top: 2px;
     margin-top: 0px;
     margin-bottom: 0px;
   }
