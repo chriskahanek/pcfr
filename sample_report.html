@@ -20,8 +20,10 @@ return xhttp.responseXML;
 
 function displayResult()
 {
-xml = loadXMLDoc("sample_report.xml");
-xsl = loadXMLDoc("sample_report.xsl");
+    var xmlFilename = document.getElementById('xmlFilename').value;
+    var xslFilename = document.getElementById('xslFilename').value;
+xml = loadXMLDoc(xmlFilename);
+xsl = loadXMLDoc(xslFilename);
 // code for IE
 if (window.ActiveXObject || xhttp.responseType == "msxml-document")
   {
@@ -39,7 +41,12 @@ else if (document.implementation && document.implementation.createDocument)
 }
 </script>
 </head>
-<body onload="displayResult()">
+<body>
+    <p>XML document:</p><br>
+    <input type="text" name="enter" value="xyz.xml" id="xmlFilename"/>
+    <br><p>XSL document:</p><br>
+    <input type="text" name="enter" value="xyz.xsl" id="xslFilename"/>
+    <input type="button" value="Click when ready" OnClick="displayResult()"/><br>
 <div id="example" />
 </body>
 </html>
