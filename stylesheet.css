@@ -6,12 +6,12 @@ div.mainbody {
   max-width: 960px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 nav.topbar {
   width:100%;
-  background-color: #663;
+  background-color: #300;
   margin-top: 0px;
   margin-bottom:0px;
   position:fixed;
@@ -27,86 +27,90 @@ nav.topgear {
   right: 0px;
   top:0px;
 }
+
+p {
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+}
+
+p.topgear {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal;
+  font-size: medium;
+  padding-right: 10px;
+  padding-top: 5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+p.topbar {
+  color: #cc9;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal;
+  font-variant: small-caps;
+  font-size: medium;
+  padding-left: 10px;
+  padding-right: 30px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  }
+
 h1 {
     color: #cc9;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bolder;
+    font-weight: bold;
     font-size:xx-large;
   }
-  p.topgear {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: normal;
-    font-size: medium;
-    padding-right: 10px;
-    padding-top: 4px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
-  p.topbar {
-    color: #cc9;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: normal;
-    font-variant: small-caps;
-    font-size: medium;
-    padding-left: 10px;
-    padding-right: 30px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
+
+h2 {
+  color: #663;
+   font-family:'Times New Roman', Times, serif;
+   font-weight: normal;
+  font-variant: small-caps;
+  font-size: x-large;
+}
   
-  h2 {
-    color: #663;
-    font-family:'Times New Roman', Times, serif;
-    font-weight: normal;
-    font-variant: small-caps;
-    font-size: x-large;
-  }
+h3 {
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-decoration: underline;
+  font-weight: normal;
+  font-size: small;
+}
   
-  h3 {
-    color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-decoration: underline;
-    font-weight: normal;
-    font-size: small;
-  }
-  
-  p {
-    color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: small;
-  }
-  
-  hr{
-    height: 2px;
-    background-color: #903;
-    border: none;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-  /* unvisited link */
+hr{
+  height: 2px;
+  background-color: #903;
+  border: none;
+  margin-left: -4px;
+  margin-right: -4px;
+}
+
+  /* unvisited link in the Navigation Bar */
 a.topbar:link {
   font-weight: normal;
   color: #cc9;
   text-decoration: none;
 }
 
-/* visited link */
+/* visited link in the Navigation Bar */
 a.topbar:visited {
   font-weight: normal;
   color: #cc9;
   text-decoration: none;
 }
 
-/* mouse over link */
+/* mouse over link in the Navigation Bar */
 a.topbar:hover {
   font-weight: normal;
   color: white;
   text-decoration: none;
 }
 
-/* selected link */
+/* selected link in the Navigation Bar */
 a.topbar:active {
   font-weight: normal;
   color: white;
@@ -129,13 +133,13 @@ a:visited {
   /* mouse over link */
 a:hover {
   font-weight: bold;
-  color: #903;
+  color: #c03;
   text-decoration: underline;
 }
   
   /* selected link */
-  a:active {
-    font-weight: bold;
-    color: #903;
-    text-decoration: underline;
-  }
+a:active {
+  font-weight: bold;
+  color: #903;
+  text-decoration: underline;
+}
