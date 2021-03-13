@@ -42,11 +42,9 @@ else if (document.implementation && document.implementation.createDocument)
 </script>
 </head>
 <body>
-    <p>XML document:</p><br>
-    <input type="text" name="enter" value="xyz.xml" id="xmlFilename"/>
-    <br><p>XSL document:</p><br>
-    <input type="text" name="enter" value="xyz.xsl" id="xslFilename"/>
-    <input type="button" value="Click when ready" OnClick="displayResult()"/><br>
-<div id="example" />
+    <div id="example" />
+    <br><p>XML document:</p><input type="text" name="enter" value="xyz.xml" id="xmlFilename"/>
+    <br><p>XSL document:</p><input type="text" name="enter" value="abc.xsl" id="xslFilename"/>
+    <input type="button" value="Click to display the XML with the XSL" OnClick="displayResult()"/>
 </body>
 </html>
