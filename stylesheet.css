@@ -29,7 +29,7 @@ nav.topgear {
 }
 
 p {
-  color: #022640;
+  color: #000000;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: small;
 }
@@ -66,7 +66,7 @@ h1 {
   }
 
 h2 {
-  color: #105357;
+  color: #b2ac88;
    font-family:'Times New Roman', Times, serif;
    font-weight: normal;
   font-variant: small-caps;
@@ -119,14 +119,14 @@ a.topbar:active {
   /* unvisited link */
 a:link {
   font-weight: bold;
-  color: #105357;
+  color: #fa8027;
   text-decoration: none;
 }
   
 /* visited link */
 a:visited {
   font-weight: bold;
-  color: #105357;
+  color: #fa8027;
   text-decoration: none;
 }
   
@@ -140,6 +140,6 @@ a:hover {
   /* selected link */
 a:active {
   font-weight: bold;
-  color: #105357;
+  color: #fa8027;
   text-decoration: underline;
 }
