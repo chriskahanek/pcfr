@@ -11,7 +11,7 @@ div.mainbody {
 }
 nav.topbar {
   width:100%;
-  background-color: #330;
+  background-color: #022640;
   margin-top: 0px;
   margin-bottom:0px;
   position:fixed;
@@ -29,7 +29,7 @@ nav.topgear {
 }
 
 p {
-  color: black;
+  color: #022640;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: small;
 }
@@ -45,7 +45,7 @@ p.topgear {
 }
 
 p.topbar {
-  color: #cc9;
+  color: #dee04f;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: normal;
   font-variant: small-caps;
@@ -59,14 +59,14 @@ p.topbar {
   }
 
 h1 {
-    color: #cc9;
+    color: #dee04f;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size:xx-large;
   }
 
 h2 {
-  color: #663;
+  color: #105357;
    font-family:'Times New Roman', Times, serif;
    font-weight: normal;
   font-variant: small-caps;
@@ -74,7 +74,7 @@ h2 {
 }
   
 h3 {
-  color: black;
+  color: #022640;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
    text-decoration: underline;
   font-weight: normal;
@@ -83,7 +83,7 @@ h3 {
   
 hr{
   height: 2px;
-  background-color: #903;
+  background-color: #b2ac88;
   border: none;
   margin-left: -4px;
   margin-right: -4px;
@@ -92,14 +92,14 @@ hr{
   /* unvisited link in the Navigation Bar */
 a.topbar:link {
   font-weight: normal;
-  color: #cc9;
+  color: #dee04f;
   text-decoration: none;
 }
 
 /* visited link in the Navigation Bar */
 a.topbar:visited {
   font-weight: normal;
-  color: #cc9;
+  color: #dee04f;
   text-decoration: none;
 }
 
@@ -119,27 +119,27 @@ a.topbar:active {
   /* unvisited link */
 a:link {
   font-weight: bold;
-  color: #903;
+  color: #105357;
   text-decoration: none;
 }
   
 /* visited link */
 a:visited {
   font-weight: bold;
-  color: #903;
+  color: #105357;
   text-decoration: none;
 }
   
   /* mouse over link */
 a:hover {
   font-weight: bold;
-  color: #c03;
+  color: #fa8027;
   text-decoration: underline;
 }
   
   /* selected link */
 a:active {
   font-weight: bold;
-  color: #903;
+  color: #105357;
   text-decoration: underline;
 }
