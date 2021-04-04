@@ -6,10 +6,13 @@
     <div class="w3-col m4">
       <div class="w3-card">
         <header class="w3-container w3-margin-top w3-yellow">
-          <span style="font-weight:bold"><xsl:value-of select="@id"/><xsl:value-of select="name"/> - </span><xsl:value-of select="price"/>
+          <span style="font-weight:bold"><xsl:value-of select="@id"/> <xsl:value-of select="name"/> - </span><xsl:value-of select="price"/>
         </header>
         <div class="w3-container w3-red">
           <xsl:value-of select="description"/><span style="font-style:italic"> (<xsl:value-of select="calories"/> calories per serving)</span>
+        </div>
+        <div class="w3-container w3-gray">
+          Premise: <xsl:value-of select="premise/premiseID"/>
         </div>
       </div>
     </div>
