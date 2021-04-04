@@ -7,9 +7,10 @@
       <tr>
         <th class="w3-teal"><span style="font-weight:bold"><xsl:value-of select="name"/> - </span><xsl:value-of select="price"/></th>
       </tr>
-    <tr>
-      <td><xsl:value-of select="description"/><span style="font-style:italic"> (<xsl:value-of select="calories"/> calories per serving)</span></td>
-    </div>
+      <tr>
+        <td><xsl:value-of select="description"/><span style="font-style:italic"> (<xsl:value-of select="calories"/> calories per serving)</span></td>
+      </tr>
+    </table>
   </div>
 </xsl:for-each>
 </body>
