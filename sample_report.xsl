@@ -13,7 +13,7 @@
         </div>
         <div class="w3-container w3-gray">
           <xsl:variable name="refID" select="premise/premiseID"/>
-          Premise ID: <xsl:value-of select="$refID"/> Premise Name: <xsl:value-of select="//food[@id=premise/premiseID[1]]/name"/>
+          Premise ID: <xsl:value-of select="$refID"/> Premise Name: <xsl:value-of select="//food[@id=$refID]/name"/>
         </div>
       </div>
     </div>
