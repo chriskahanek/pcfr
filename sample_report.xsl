@@ -3,7 +3,7 @@
 <body>
 <xsl:for-each select="breakfast_menu/food">
   <div class="w3-container w3-card w3-margin">
-    <div class="w3-container w3-red">
+    <div class="w3-container w3-blue">
       <h3><span style="font-weight:bold"><xsl:value-of select="name"/> - </span><xsl:value-of select="price"/></h3>
     </div>
     <div class="w3-container">
