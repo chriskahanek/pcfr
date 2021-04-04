@@ -11,8 +11,8 @@
         <div class="w3-container w3-red">
           <xsl:value-of select="description"/><span style="font-style:italic"> (<xsl:value-of select="calories"/> calories per serving)</span>
         </div>
-        <div class="w3-container w3-brown">
-          Premise ID: <xsl:value-of select="premise/premiseID"/> Premise Name: <xsl:value-of select="//food[@id = number(premise/premiseID)]/name"/>
+        <div class="w3-container w3-gray">
+          Premise ID: <xsl:value-of select="premise/premiseID"/> Premise Name: <xsl:value-of select="//food[@id = string(premise/premiseID)]/name"/>
         </div>
       </div>
     </div>
