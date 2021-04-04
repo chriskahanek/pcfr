@@ -2,7 +2,7 @@
 <html xsl:version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <body>
 <xsl:for-each select="breakfast_menu/food">
-  <div class="w3-card">
+  <div class="w3-panel w3-card">
     <div class="w3-container w3-teal">
       <h3><span style="font-weight:bold"><xsl:value-of select="name"/> - </span><xsl:value-of select="price"/></h3>
     </div>
