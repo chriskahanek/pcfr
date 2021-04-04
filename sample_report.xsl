@@ -5,7 +5,7 @@
   <div class="w3-container w3-card w3-margin">
     <table class="w3-table">
       <tr>
-        <th class="w3-teal"><span style="font-weight:bold"><xsl:value-of select="name"/> - </span><xsl:value-of select="price"/></th>
+        <th class="w3-yellow"><span style="font-weight:bold"><xsl:value-of select="name"/> - </span><xsl:value-of select="price"/></th>
       </tr>
       <tr>
         <td><xsl:value-of select="description"/><span style="font-style:italic"> (<xsl:value-of select="calories"/> calories per serving)</span></td>
