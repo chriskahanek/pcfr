@@ -5,7 +5,7 @@
   <xsl:for-each select="breakfast_menu/food">
     <div class="w3-col m4">
       <div class="w3-card">
-        <header class="w3-panel w3-yellow">
+        <header class="w3-container w3-margin-top w3-yellow">
           <span style="font-weight:bold"><xsl:value-of select="name"/> - </span><xsl:value-of select="price"/>
         </header>
         <div class="w3-container w3-gray">
