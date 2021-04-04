@@ -12,10 +12,8 @@
           <xsl:value-of select="description"/><span style="font-style:italic"> (<xsl:value-of select="calories"/> calories per serving)</span>
         </div>
         <div class="w3-container w3-blue">
-          <xsl:for-each select="./premise">
-            <xsl:variable name="refID" select="premiseID"/>
+            <xsl:variable name="refID" select="premise/premiseID"/>
             Premise ID: <xsl:value-of select="$refID"/> Premise Name: <xsl:value-of select="//food[@id=$refID]/name"/><br>
-          <xsl:for-each>
         </div>
       </div>
     </div>
