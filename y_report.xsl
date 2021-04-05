@@ -14,8 +14,8 @@
         <div class="w3-container w3-gray">
         <xsl:for-each select="premise">
           <xsl:variable name="refID" select="premiseID"/>
-          <p>Premise ID: <xsl:value-of select="$refID"/> Premise Name: <xsl:value-of select="//food[@id=$refID]/name"/></p>
-        </xsl:for-each>
+            <p>Premise ID: <xsl:value-of select="$refID"/> Premise Name: <xsl:value-of select="//food[@id=$refID]/name"/></p>
+          </xsl:for-each>
         </div>
       </div>
     </div>
