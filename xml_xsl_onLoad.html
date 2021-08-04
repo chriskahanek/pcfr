@@ -43,8 +43,9 @@ else if (document.implementation && document.implementation.createDocument)
 }
 </script>
 </head>
-<body onload="displayResult('z_report.xml','z_report.xsl','example')">
+<body onload="displayResult('y_report.xml','y_report.xsl','example2')" onload="displayResult('z_report.xml','z_report.xsl','example')">
     <p>XML: <input type="text" name="enter" value="z_report.xml" id="xmlFilename"/> | XSLT: <input type="text" name="enter" value="z_report.xsl" id="xslFilename"/></p>
     <div id="example">the example div</div>
+    <div id="example2">the example div</div>
   </body>
 </html>
