@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<script>
+function loadXMLDoc(filename)
+{
+if (window.ActiveXObject)
+  {
+  xhttp = new ActiveXObject("Msxml2.XMLHTTP");
+  }
+else
+  {
+  xhttp = new XMLHttpRequest();
+  }
+xhttp.open("GET", filename, false);
+try {xhttp.responseType = "msxml-document"} catch(err) {} // Helping IE11
+xhttp.send("");
+return xhttp.responseXML;
+}
+
+function displayResult(xmlFilename,xslFilename,divID)
+{
+xml = loadXMLDoc(xmlFilename);
+xsl = loadXMLDoc(xslFilename);
+// code for IE
+if (window.ActiveXObject || xhttp.responseType == "msxml-document")
+  {
+  ex = xml.transformNode(xsl);
+  document.getElementById(divID).innerHTML = ex;
+  }
+// code for Chrome, Firefox, Opera, etc.
+else if (document.implementation && document.implementation.createDocument)
+  {
+  xsltProcessor = new XSLTProcessor();
+  xsltProcessor.importStylesheet(xsl);
+  resultDocument = xsltProcessor.transformToFragment(xml, document);
+  document.getElementById(divID).innerHTML = "";
+  document.getElementById(divID).appendChild(resultDocument);
+  }
+}
+</script>
+</head>
+<body>
+    <p>XML: <input type="text" name="enter" value="_report.xml" id="xmlFilename"/> | XSLT: <input type="text" name="enter" value="_report.xsl" id="xslFilename"/> | <input type="button" class="w3-button w3-gray" value="Display" OnClick="displayResult('z_report.xml','z_report.xsl','example')"/></p>
+    <div id="example">the example div</div>
+  </body>
+</html>
