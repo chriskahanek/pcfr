@@ -41,11 +41,17 @@ else if (document.implementation && document.implementation.createDocument)
   document.getElementById(divID).appendChild(resultDocument);
   }
 }
+
+function loadXMLfiles()
+{
+    displayResult('z_report.xml','z_report.xsl','example');
+    displayResult('y_report.xml','y_report.xsl','example2')
+}
 </script>
 </head>
-<body onload="displayResult('y_report.xml','y_report.xsl','example2')" onload="displayResult('z_report.xml','z_report.xsl','example')">
+<body onload="loadXMLfiles()">
     <p>XML: <input type="text" name="enter" value="z_report.xml" id="xmlFilename"/> | XSLT: <input type="text" name="enter" value="z_report.xsl" id="xslFilename"/></p>
     <div id="example">the example div</div>
-    <div id="example2">the example div</div>
+    <div id="example2">the example2 div</div>
   </body>
 </html>
